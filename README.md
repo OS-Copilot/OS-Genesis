@@ -8,6 +8,7 @@
 ![License](https://img.shields.io/badge/License-MIT-blue)
 [![Paper page](https://huggingface.co/datasets/huggingface/badges/resolve/main/paper-page-sm.svg)](https://huggingface.co/papers/2412.19723)
 [![Twitter Follow](https://img.shields.io/twitter/follow/qiushi_sun)](https://twitter.com/qiushi_sun)
+[![Twitter Follow](https://img.shields.io/twitter/follow/zichen_ding)](https://twitter.com/heroding77)
 
 This repository contains the code and data for paper [OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis](https://arxiv.org/abs/2412.19723).
 > We are uploading the data and checkpoints. Due to bandwidth limitations, this will take some time. Stay tuned!
