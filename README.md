@@ -3,21 +3,40 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2412.19723-b31b1b.svg)](https://arxiv.org/abs/2412.19723) 
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
+This repository contains the code and data for the paper [OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis](https://arxiv.org/abs/2412.19723).
+> We are uploading the data and checkpoints. Due to bandwidth limitations, this will take some time. Stay tuned!
+
+
+## Overview
+
+We introduce OS-Genesis, an interaction-driven pipeline for synthesizing high-quality and diverse GUI agent trajectory data without human supervision or predefined tasks. By leveraging reverse task synthesis and a trajectory reward model, OS-Genesis enables effective end2end training of GUI agents.
+
+
+## Training & Evaluation
 
 
 
 
+## Mobile
 
+|   Model Name    |                           Base Model                                            |                           Training Data                                            |                           HF Link                           |
+| :-------------: | :-------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------: | :---------------------------------------------------------: |
+| OS-Genesis-4B-AC | [InternVL2-4B](https://huggingface.co/OpenGVLab/InternVL2-4B)            | [OS-Genesis-ac-training-data](https://huggingface.co/datasets/OS-Copilot/OS-Genesis-mobile-data/blob/main/os_genesis_ac_training_data.jsonl) | [🤗 link](https://huggingface.co/OS-Copilot/OS-Genesis-4B-AC)  |
+| OS-Genesis-7B-AC | [Qwen2-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct) | [OS-Genesis-ac-training-data](https://huggingface.co/datasets/OS-Copilot/OS-Genesis-mobile-data/blob/main/os_genesis_ac_training_data.jsonl) | [🤗 link](https://huggingface.co/OS-Copilot/OS-Genesis-7B-AC)  |
+| OS-Genesis-8B-AC | [InternVL2-8B](https://huggingface.co/OpenGVLab/InternVL2-8B)            | [OS-Genesis-ac-training-data](https://huggingface.co/datasets/OS-Copilot/OS-Genesis-mobile-data/blob/main/os_genesis_ac_training_data.jsonl) | [🤗 link](https://huggingface.co/OS-Copilot/OS-Genesis-8B-AC)  |
 
+## Web
+
+(Coming Soon)
 
 ## Citation 📖
 
 🫶 If you are interested in our work or find this repository / our data helpful, please consider using the following citation format when referencing our paper:
 
 ```bibtex
-@article{sun2024osgenesis,
+@article{sun2024genesis,
   title={OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis},
-  author={Qiushi Sun and Kanzhi Cheng and Zichen Ding and Chuanyang Jin and Yian Wang and Fangzhi Xu and Zhenyu Wu and Chengyou Jia and Liheng Chen and Zhoumianze Liu and Ben Kao and Guohao Li and Junxian He and Yu Qiao and Zhiyong Wu},
+  author={Sun, Qiushi and Cheng, Kanzhi and Ding, Zichen and Jin, Chuanyang and Wang, Yian and Xu, Fangzhi and Wu, Zhenyu and Jia, Chengyou and Chen, Liheng and Liu, Zhoumianze and others},
   journal={arXiv preprint arXiv:2412.19723},
   year={2024}
 }
