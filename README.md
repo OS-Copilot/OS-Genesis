@@ -16,12 +16,13 @@ We introduce OS-Genesis, an interaction-driven pipeline for synthesizing high-qu
 <img src="./static/OS-Genesis.png" alt="overview" style="zoom:20%;" />
 
 
-## Training & Evaluation
+## Training
 
 For details and operations of the training, please refer to the [InternVL2 documentation](https://internvl.readthedocs.io/en/latest/get_started/installation.html) and [Qwen2-VL](https://github.com/QwenLM/Qwen2-VL).
 
-
-To evaluate the Android Control Benchmark, please follow the steps below:
+## Evaluation
+### AndroidControl
+To evaluate the AndroidControl Benchmark, please follow the steps below:
 
 1. **Clone the GitHub Repository:**
 
