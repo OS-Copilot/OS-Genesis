@@ -14,7 +14,26 @@ We introduce OS-Genesis, an interaction-driven pipeline for synthesizing high-qu
 
 ## Training & Evaluation
 
+For details and operations of the training, please refer to the [InternVL2 documentation](https://internvl.readthedocs.io/en/latest/get_started/installation.html) and [Qwen2-VL](https://github.com/QwenLM/Qwen2-VL).
 
+To evaluate the Android Control Benchmark, please follow the steps below:
+
+1. **Clone the GitHub Repository:**
+
+   ```
+   git clone https://github.com/OS-Copilot/OS-Genesis.git
+   ```
+
+2. **Inference:**
+   ```
+   cd OS-Genesis/evaluation
+   bash run_ac_inference.sh
+   ```
+
+3. **Evaluation:**
+   ```
+   pyhton ac_eval.py
+   ```
 
 
 ## Mobile
