@@ -11,10 +11,15 @@ This repository contains the code and data for the paper [OS-Genesis: Automating
 
 We introduce OS-Genesis, an interaction-driven pipeline for synthesizing high-quality and diverse GUI agent trajectory data without human supervision or predefined tasks. By leveraging reverse task synthesis and a trajectory reward model, OS-Genesis enables effective end2end training of GUI agents.
 
+<!-- ![overview](./static/OS-Genesis.png) -->
+
+<img src="./static/OS-Genesis.png" alt="overview" style="zoom:20%;" />
+
 
 ## Training & Evaluation
 
 For details and operations of the training, please refer to the [InternVL2 documentation](https://internvl.readthedocs.io/en/latest/get_started/installation.html) and [Qwen2-VL](https://github.com/QwenLM/Qwen2-VL).
+
 
 To evaluate the Android Control Benchmark, please follow the steps below:
 
@@ -34,7 +39,6 @@ To evaluate the Android Control Benchmark, please follow the steps below:
    ```
    pyhton ac_eval.py
    ```
-
 
 ## Mobile
 
