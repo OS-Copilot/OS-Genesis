@@ -39,8 +39,8 @@ To evaluate the AndroidControl Benchmark, please follow the steps below:
 
 2. **Inference:**
    ```
-   cd OS-Genesis/evaluation
-   bash run_ac_inference.sh
+   cd OS-Genesis/evaluation/android_control
+   bash run_ac_inference.sh $dataset $checkpoint
    ```
 
 3. **Evaluation:**
