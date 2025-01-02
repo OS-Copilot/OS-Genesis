@@ -11,10 +11,12 @@ This repository contains the code and data for the paper [OS-Genesis: Automating
 
 We introduce OS-Genesis, an interaction-driven pipeline for synthesizing high-quality and diverse GUI agent trajectory data without human supervision or predefined tasks. By leveraging reverse task synthesis and a trajectory reward model, OS-Genesis enables effective end2end training of GUI agents.
 
+<!-- ![overview](./static/OS-Genesis.png) -->
+
+<img src="./static/OS-Genesis.png" alt="overview" style="zoom:20%;" />
+
 
 ## Training & Evaluation
-
-
 
 
 ## Mobile
