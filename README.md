@@ -7,9 +7,12 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2412.19723-b31b1b.svg)](https://arxiv.org/abs/2412.19723) 
 ![License](https://img.shields.io/badge/License-MIT-blue)
 [![Paper page](https://huggingface.co/datasets/huggingface/badges/resolve/main/paper-page-sm.svg)](https://huggingface.co/papers/2412.19723)
-[![Twitter Follow](https://img.shields.io/twitter/follow/qiushi_sun)](https://twitter.com/qiushi_sun)
+[![Generic badge](https://img.shields.io/badge/WeChat-机器之心-green.svg?logo=wechat)](https://mp.weixin.qq.com/s/_gu3NSCpAbAE1A8mEhGD7Q)
+<a href = "https://zhuanlan.zhihu.com/p/18229337790"><img src="https://img.shields.io/badge/-%E7%9F%A5%E4%B9%8E-%232f6be0" target="_blank"></a>
+<!-- [![Twitter Follow](https://img.shields.io/twitter/follow/qiushi_sun)](https://twitter.com/qiushi_sun)
 [![Twitter Follow](https://img.shields.io/twitter/follow/zichen_ding)](https://twitter.com/heroding77)
-[![Twitter Follow](https://img.shields.io/twitter/follow/chuanyang_jin)](https://twitter.com/chuanyang_jin)
+[![Twitter Follow](https://img.shields.io/twitter/follow/chuanyang_jin)](https://twitter.com/chuanyang_jin) -->
+
 
 This repository contains the code and data for the paper [OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis](https://arxiv.org/abs/2412.19723).
 > We are uploading the data and checkpoints. Due to bandwidth limitations, this will take some time. Stay tuned!
