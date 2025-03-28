@@ -78,6 +78,17 @@ To evaluate the AndroidControl Benchmark, please follow the steps below:
 | OS-Genesis-7B-WA | [Qwen2-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct) | [OS-Genesis-web-training-data](https://huggingface.co/datasets/OS-Copilot/OS-Genesis-web-data/blob/main/os_genesis_web_training.jsonl) | [🤗 link](https://huggingface.co/OS-Copilot/OS-Genesis-7B-WA)  |
 | OS-Genesis-8B-WA | [InternVL2-8B](https://huggingface.co/OpenGVLab/InternVL2-8B)            | [OS-Genesis-web-training-data](https://huggingface.co/datasets/OS-Copilot/OS-Genesis-web-data/blob/main/os_genesis_web_training.jsonl) | [🤗 link](https://huggingface.co/OS-Copilot/OS-Genesis-8B-WA)  |
 
+
+## More Resources
+
+### Raw collected triples
+
+In addition to our complete trajectory data on HuggingFace, we also provide collected raw $<s_{\text{pre}}, a, s_{\text{post}}>$ triples. You can use them to reproduce the process of reverse task synthesis directly, without re-collecting them from emulators yourself 😄. The screenshots and corresponding texts (with SoM info contained) are provided below:
+
+**Mobile**: [[Screenshots]](https://drive.google.com/file/d/1D0q9G0taIV867Lp9794uC0rQqyNFVRu4/view?usp=sharing) [[Actions]](https://drive.google.com/file/d/1yFE_iY7Z3oIkv40tAIY7Z8zDhhal-Epw/view?usp=sharing)
+
+Feel free to email me if you require additional data of this kind.
+
 ## FAQ ❓
 
 We have collected some questions from emails, Hugging Face, and WeChat communications. Please check the [FAQ](https://github.com/OS-Copilot/OS-Genesis/blob/main/faq.md) 🤖
