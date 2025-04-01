@@ -85,9 +85,10 @@ To evaluate the AndroidControl Benchmark, please follow the steps below:
 
 In addition to our complete trajectory data on HuggingFace, we also provide collected raw $<s_{\text{pre}}, a, s_{\text{post}}>$ triples. You can use them to reproduce the process of reverse task synthesis directly, without re-collecting them from emulators yourself 😄. The screenshots and corresponding texts (with SoM info contained) are provided below:
 
-<!-- **Mobile**: [[Screenshots]](https://drive.google.com/file/d/1D0q9G0taIV867Lp9794uC0rQqyNFVRu4/view?usp=sharing) [[Actions]](https://drive.google.com/file/d/1yFE_iY7Z3oIkv40tAIY7Z8zDhhal-Epw/view?usp=sharing) -->
-
-Preparing...
+|   Data Type    |                           Screenshots                                            |                           Data JSON                                            |
+| :-------------: | :-------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------: |
+| Mobile | [Screenshots](https://drive.google.com/file/d/1ILyz_-DDOdAk32kue1lEPaV50YzQ5c4v/view?usp=sharing) | [Data JSON](https://drive.google.com/file/d/1dSxNf-co4LGh93NoiUgWKdbcf8Mo_VWG/view?usp=sharing) |
+| Web | [Screenshots](https://drive.google.com/file/d/1X2QktZ51OUofZ43vDGB4RuAPlXbdf5ua/view?usp=sharing) | [Data JSON](https://drive.google.com/file/d/1mDxhonGnd3wZbNQgWMVpYEkPW26_FVg8/view?usp=sharing) |
 
 Feel free to email me if you require additional data of this kind.
 
