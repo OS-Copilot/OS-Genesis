@@ -14,7 +14,7 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/chuanyang_jin)](https://twitter.com/chuanyang_jin) -->
 
 
-This repository contains the code and data for the paper [OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis](https://arxiv.org/abs/2412.19723).
+This repository contains the code and data for the ACL 2025 paper [OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis](https://arxiv.org/abs/2412.19723).
 > We are uploading the data and checkpoints. Due to bandwidth limitations, this will take some time. Stay tuned!
 
 
