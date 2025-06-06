@@ -4,6 +4,10 @@ In addition to the collected-synthesized data, we here provide scripts collected
 
 # Mobile
 
+## Random walk in the AndroidWorld Environment
+First, clone the [AndroidWorld](https://github.com/google-research/android_world) repository, then place `random_walk_aw.py` and `run_random_walk_aw.py` in its directory.
+
+`random_walk_aw.py` provides our implementation logic for random walking in the environment to obtain `<screen_pre, action, screen_after>` triples. You can use `python run_random_walk_aw.py` to collect large-scale interaction triples.
 ## Reverse Task Synthesis
 
 Work in progress.
