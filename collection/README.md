@@ -27,3 +27,6 @@ python mobile_runner.py
 First, configure [WebArena](https://github.com/web-arena-x/webarena) and open the specified ports to access the website, then place `random_walk_web.py` in its directory.
 
 `random_walk_web.py` provides our implementation logic for random walking in the environment to obtain <screen_pre, action, screen_after> triples. You can use `python random_walk_web.py` to collect large-scale interaction triples.
+
+# Reward Model
+We provide an example of the Reward Model we use in `genesis_rm.py`. For more information, please refer to the original paper.
