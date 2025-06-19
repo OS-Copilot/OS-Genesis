@@ -9,6 +9,7 @@
 [![Paper page](https://huggingface.co/datasets/huggingface/badges/resolve/main/paper-page-sm.svg)](https://huggingface.co/papers/2412.19723)
 [![Generic badge](https://img.shields.io/badge/WeChat-机器之心-green.svg?logo=wechat)](https://mp.weixin.qq.com/s/_gu3NSCpAbAE1A8mEhGD7Q)
 [![Discord](https://img.shields.io/discord/1222168244673314847?logo=discord&style=flat)](https://discord.com/invite/rXS2XbgfaD)
+[![🌐 Website](https://img.shields.io/badge/Website-🌐-informational)](https://qiushisun.github.io/OS-Genesis-Home/)
 <a href = "https://zhuanlan.zhihu.com/p/18229337790"><img src="https://img.shields.io/badge/-%E7%9F%A5%E4%B9%8E-%232f6be0" target="_blank"></a>
 <!-- [![Twitter Follow](https://img.shields.io/twitter/follow/qiushi_sun)](https://twitter.com/qiushi_sun)
 [![Twitter Follow](https://img.shields.io/twitter/follow/zichen_ding)](https://twitter.com/heroding77)
