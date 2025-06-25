@@ -37,6 +37,29 @@ python mobile_runner.py
 
 After completion, you will find the following outputs in the directory, each screenshot will be saved in the (1) original format and (2) the allytree annotated format, like the example in samples folder.
 
+
+## Build Trajectories in the AndroidWorld Environment
+
+Now we have instructions, and here we can transform the instructions into trajectories.
+
+### Step 1
+To further improve the quality of data collection, we provide a pre-saved set of app states in `params_new.zip`.
+Please unzip it into the android_env/android_world directory. Replace the existing folder if necessary.
+
+
+### Step 2
+
+Move your instruction file (e.g., `aw_instructions.json`) into the `android_env/androidworld` directory. This file contains the instructions generated from the random walk.
+
+Then, launch `run_gpt_task_runner.py`. After execution, you will obtain:
+1. `aw_instructions.json` — the file containing the augmented trajectory information.
+2. A folder storing the corresponding screenshots, e.g., `screenshots_gpt_241103`.
+
+
+
+> [!NOTE]  Known Issue: VM May Become Unresponsive During Long Runs
+During long runs, the VM may occasionally become unresponsive, preventing further data collection. We suspect this is due to memory issues within the VM.
+The easiest workaround is to reset the device directly in Android Studio to release the occupied memory and restore normal operation.
 <!-- 
 ## Trajectory Construction
 
@@ -53,5 +76,5 @@ First, configure [WebArena](https://github.com/web-arena-x/webarena) and open th
 
 `random_walk_web.py` provides our implementation logic for random walking in the environment to obtain <screen_pre, action, screen_after> triples. You can use `python random_walk_web.py` to collect large-scale interaction triples.
 
-# Reward Model
+# Trajectory Reward Modeling
 We provide an example of the Reward Model we use in `genesis_rm.py`. For more information, please refer to the original paper.
