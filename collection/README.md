@@ -55,7 +55,7 @@ Then, launch `run_gpt_task_runner.py`. After execution, you will obtain:
 1. `aw_instructions.json` — the file containing the augmented trajectory information.
 2. A folder storing the corresponding screenshots, e.g., `screenshots_gpt_241103`.
 
-
+Note: We mainly adapt the inference logic of the M3A agent to implement trajectory collection. The corresponding modifications are documented through comments in `gpt_task_runner.py`.
 
 > [!NOTE]  Known Issue: VM May Become Unresponsive During Long Runs
 During long runs, the VM may occasionally become unresponsive, preventing further data collection. We suspect this is due to memory issues within the VM.

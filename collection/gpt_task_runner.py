@@ -12,11 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Runs a single task.
+"""collect a single trajectory.
 
-The minimal_run.py module is used to run a single task, it is a minimal version
-of the run.py module. A task can be specified, otherwise a random task is
-selected.
+This is used to collect a single GUI agent trajectory, it is adapted from the original m3a agent in AW.
 """
 
 from collections.abc import Sequence
@@ -94,7 +92,7 @@ _TASK = flags.DEFINE_string(
 
 
 def save_image(image, directory):
-    """保存图像并返回文件名"""
+    """save fig and return the image name."""
     unique_id = str(uuid.uuid4())
     image_name = f"{unique_id}.png"
     image_path = os.path.join(directory, image_name)
@@ -261,6 +259,7 @@ def _main() -> None:
               is_done = True
               break
 
+          # this is only an indicator, not a eval, so you can ignore the ✅ or ❌
           """
           agent_successful = is_done and task.is_successful(env) == 1
           print(
