@@ -81,7 +81,7 @@ To evaluate the AndroidControl Benchmark, please follow the steps below:
 | OS-Genesis-8B-WA | [InternVL2-8B](https://huggingface.co/OpenGVLab/InternVL2-8B)            | [OS-Genesis-web-training-data](https://huggingface.co/datasets/OS-Copilot/OS-Genesis-web-data/blob/main/os_genesis_web_training.jsonl) | [🤗 link](https://huggingface.co/OS-Copilot/OS-Genesis-8B-WA)  |
 
 
-## More Resources
+## More Resources 📚
 
 ### Raw collected triples
 
