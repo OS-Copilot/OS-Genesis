@@ -57,6 +57,8 @@ Then, launch `run_gpt_task_runner.py`. After execution, you will obtain:
 
 Note: We mainly adapt the inference logic of the M3A agent to implement trajectory collection. The corresponding modifications are documented through comments in `gpt_task_runner.py`.
 
+A sample `aw_instructions.json` is provided in this folder for your reference.
+
 > [!NOTE]  Known Issue: VM May Become Unresponsive During Long Runs
 During long runs, the VM may occasionally become unresponsive, preventing further data collection. We suspect this is due to memory issues within the VM.
 The easiest workaround is to reset the device directly in Android Studio to release the occupied memory and restore normal operation.
