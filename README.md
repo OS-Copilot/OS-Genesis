@@ -17,7 +17,7 @@
 
 
 This repository contains the code and data for the ACL 2025 paper [OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis](https://arxiv.org/abs/2412.19723).
-> We are uploading the data and checkpoints. Due to bandwidth limitations, this will take some time. Stay tuned!
+<!-- > We are uploading the data and checkpoints. Due to bandwidth limitations, this will take some time. Stay tuned! -->
 
 
 ## Overview
@@ -26,7 +26,12 @@ We introduce OS-Genesis, an interaction-driven pipeline for synthesizing high-qu
 
 <!-- ![overview](./static/OS-Genesis.png) -->
 
+## Build Trajectories
+
+We provide scripts and instructions to help you build trajectories in [colletction](./collection/).
+
 <img src="./static/OS-Genesis.png" alt="overview" style="zoom:20%;" />
+
 
 
 ## Training
@@ -97,6 +102,12 @@ Feel free to email me if you require additional data of this kind.
 ## FAQ ❓
 
 We have collected some questions from emails, Hugging Face, and WeChat communications. Please check the [FAQ](https://github.com/OS-Copilot/OS-Genesis/blob/main/faq.md) 🤖
+
+## Explore More Works 🔍
+1. [OS-Atlas](https://osatlas.github.io/) 🤖
+2. [ScienceBoard](https://qiushisun.github.io/ScienceBoard-Home/) 🧪
+3. [GUIMid](https://github.com/hkust-nlp/GUIMid) 📊
+
 
 ## Citation 📖
 
